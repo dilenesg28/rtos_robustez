@@ -185,7 +185,7 @@ void task_monitor(void *pv) {
     }
 }
 
-/* -------- app_main: cria fila e tarefas -------- */
+/* ---------- app_main: cria fila e tarefas -------- */
 void app_main(void) {
     printf("Iniciando exemplo robusto com FreeRTOS no ESP32\n");
 

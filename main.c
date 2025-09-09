@@ -125,7 +125,7 @@ void task_comm(void *pv) {
     printf("[COMM] Tarefa finalizada para permitir que o monitor a recrie.\n");
     vTaskDelete(NULL);
 }
-
+/*               */
 /* Tarefa de logging */
 void task_log(void *pv) {
     static char logbuf[512];
